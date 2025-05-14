@@ -108,7 +108,7 @@ index 1a187dc3684a..e05b2a0ce897 100644
 +
 +		port {
 +			ov05c10_ep: endpoint {
-+				data-lanes = <2>;
++				data-lanes = <1 2>;
 +				link-frequencies = /bits/ 64 <400000000>;
 +				remote-endpoint = <&csiphy4_ep>;
 +			};
